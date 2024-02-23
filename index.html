@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+   <!-- <h1>Hello, world!</h1>-->
+    
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">COURSERA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">By Rocio Suarez</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CURSOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TUTORIALES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!--Carrusel-->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="max-width: 1800px;">
+          <img src="./assets/slde_4.PNG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" style="max-width: 1800px;">
+          <img src="./assets/slide_3.PNG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" style="max-width: 1800px;">
+          <img src="./assets/slide_4.PNG" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Ejemplo-->
+    <!---fluid bg-dark py-5-->
+
+    <div class="container mt-5">
+      <h2 class="text-info">ACERCA DE</h2> 
+      <div class="row">
+          <div class="col text-body">Coursera es una plataforma en línea que ofrece cursos, programas y especializaciones de educación superior en una variedad de campos. Fue fundada en 2012 por Andrew Ng y Daphne Koller, profesores de ciencias de la computación en la Universidad Stanford. La plataforma colabora con universidades y organizaciones de todo el mundo para proporcionar acceso a cursos de alta calidad a través de internet.</div>
+          <div class="col text-body">Es importante destacar que Coursera opera bajo un modelo freemium, lo que significa que muchos cursos son gratuitos para auditar, pero hay costos asociados con la obtención de certificaciones o acceso completo a todos los materiales del curso.</div>
+       </div> 
+    </div>
+
+    <div class="container mt-5 d-none d-md-block">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-0 text-center">
+            <img src="./assets/libro.PNG" class="card-img-top rounded-pill"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CURSOS GRATIS</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-0 text-center">
+            <img src="./assets/libro_2.PNG" class="card-img-top rounded-pill"  class="rounded-circle"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CURSOS GRATIS</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Certificate</a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4">
+          <div class="card border-0 text-center">
+            <img src="./assets/libro_3.PNG" style="max-width: 95%;" class="card-img-top rounded-pill"  class="rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CURSOS GRATIS</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Certificate</a>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+
+    <!--tarjetas horizontales-->
+    <div class="container mt-5">
+      <div class="card mb-3 border-0">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="./assets/curso_1.PNG" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title">CURSOS GRATIS</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="text-center"><a href="#" class="btn btn-sucess border-danger">CERTIFICATE</a></div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="container mt-5">
+      <div class="card mb-3 border-0">
+        <div class="row g-0">
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title">CURSOS GRATIS</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="text-center"><a href="#" class="btn btn-sucess border-danger">CERTIFICATE</a></div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="./assets/curso.PNG" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <footer>
+      <div class="container-fluid bg-dark p-5 text-center">
+        <div class="row">
+          <div class="col">
+            <a href="#" class="text-decoration-none text-sucess p-4"><img style="width: 1.5%;" src="./assets/facebook.png" class="m-2 rounded-4">CURSOS</a>
+            <a href="#" class="text-decoration-none text-sucess p-4"><img style="width: 1.5%;" src="./assets/instagram.png" class="m-2 rounded-4">TUTORIALES</a>
+            <a href="#" class="text-decoration-none text-sucess p-4"><img style="width: 1.5%;" src="./assets/gmail.png" class="m-2 rounded-4">DESCARGAS</a>
+            <a href="#" class="text-decoration-none text-sucess p-4"><img style="width: 1.5%;" src="./assets/whatsapp.png" class="m-2 rounded-4">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
